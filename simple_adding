@@ -1,13 +1,18 @@
 # Using the Ruby language, have the function SimpleAdding(num) add up all the numbers from 1 to num. 
 
-  result = 0
-  i = 1
-  while i <= num
-    result = result + i
-    i = i + 1
-    
-  end
+def SimpleAdding(num)
+   result = 0
+   i = 1
+    while i <= num
+      result = result + i
+      i = i + 1
+    end
     
   # code goes here
   return result
-         
+end
+   
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+SimpleAdding(STDIN.gets)  
+
